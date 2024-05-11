@@ -1,0 +1,10 @@
+DataSet Link: https://www.kaggle.com/datasets/samuelmcguire/wine-reviews-data
+
+About Project:
+1. Data Preparation and Cleaning - This includes removing null values and 
+preparing the data for the final evaluation process.
+
+2. Insights like Top 10 cheapest/Expensive wine and top 10 rated wine etc. is shown.
+
+3. With Seaborn, a correlation between rating, price and alcohol content has shown.
+Median, range of price, alcohol and rating is shown respect to category.
