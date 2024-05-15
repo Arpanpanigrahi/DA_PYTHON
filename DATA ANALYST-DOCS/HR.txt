@@ -1,0 +1,245 @@
+Q1. TELL ME ABOUT YOURSELF AND YOUR EXPERIENCE WITH DATA ANALYSIS.
+
+"I have a background in [your field of study] and 
+have been working in data analysis for [number of years]. 
+In my previous role at [previous company], 
+I was responsible for [brief description of your responsibilities and achievements]. 
+I am proficient in [list of relevant skills and tools]."
+
+
+Q2. WHAT DATA ANALYSIS TOOLS AND PROGRAMMING LANGUAGES ARE YOU PROFICIENT IN?
+
+"I am proficient in SQL for data querying and manipulation. 
+I also have experience with Python and R for data analysis and visualization. 
+I am familiar with tools like Excel, Tableau, and Power BI for data visualization."
+
+
+Q3. CAN YOU DESCRIBE A CHALLENGING DATA ANALYSIS PROJECT YOU WORKED ON AND HOW YOU APPROACHED IT?
+
+"One of the most challenging projects I worked on was [brief description of the project]. 
+I approached this project by first understanding the business requirements and the data available. 
+I then cleaned and analyzed the data to identify patterns and insights that could help solve the 
+business problem. Finally, I presented my findings to stakeholders and recommended actionable 
+strategies based on the analysis."
+
+
+Q4. HOW DO YOU HANDLE MISSING OR INCOMPLETE DATA IN YOUR ANALYSIS?
+
+"When dealing with missing or incomplete data, I first try to understand the reason for the missing data.
+Depending on the situation, I may choose to impute the missing values using statistical methods or 
+remove the incomplete records from the analysis. I always document the approach taken and the impact on 
+the analysis results."
+
+
+Q5. WHAT IS YOUR EXPERIENCE WITH DATA VISUALIZATION? CAN YOU GIVE AN EXAMPLE OF A VISUALIZATION YOU 
+CREATED?
+
+"I have experience creating various types of data visualizations using tools like Tableau and Excel. 
+For example, in a previous project, I created a dashboard that visualized sales data by region using 
+interactive maps and charts. This helped stakeholders easily understand the regional sales performance 
+and identify trends."
+
+
+Q6. HOW DO YOU ENSURE THE ACCURACY AND RELIABILITY OF YOUR ANALYSIS RESULTS?
+
+"To ensure the accuracy and reliability of my analysis results, I use techniques such as data validation, 
+cross-checking with other sources, and peer review. I also pay attention to detail and thoroughly 
+test my analysis before presenting the findings."
+
+
+Q7. HAVE YOU USED SQL FOR DATA ANALYSIS? IF SO, CAN YOU DESCRIBE A PROJECT WHERE YOU USED SQL?
+
+"Yes, I have used SQL extensively for data analysis. In a previous project, I used SQL to query and 
+join multiple tables to analyze customer behavior. I also used SQL to calculate metrics such as 
+customer lifetime value and segment customers based on their purchasing habits."
+
+
+Q8. Describe a Data Analysis project you worked upon?
+
+Title: Customer Segmentation and Market Basket Analysis for an E-commerce Platform
+
+Description:
+In this project, I was tasked with analyzing customer data from an e-commerce platform to identify meaningful segments 
+within the customer base and understand their purchasing behavior. The primary objectives were to optimize marketing 
+strategies, personalize product recommendations, and improve overall customer satisfaction.
+
+1. Data Collection & Preparation:
+Gathered transaction, website interaction, and demographic data.
+Cleaned and preprocessed data, performed exploratory data analysis.
+
+2. Customer Segmentation:
+Used clustering techniques to group customers based on behavior and demographics.
+Evaluated clusters' quality and interpreted segment characteristics.
+
+3. Market Basket Analysis:
+Employed association rule mining to find product associations.
+Identified cross-selling opportunities and personalized recommendations.
+
+4. Visualization & Reporting:
+Created visualizations and interactive dashboards.
+Summarized findings and recommendations in comprehensive reports.
+
+5. Implementation & Monitoring:
+Collaborated with teams to implement data-driven strategies.
+Monitored performance metrics for continuous improvement.
+
+
+Q9. What Data Analysis tool are you familiar with?
+[Prepared with tools like Excel, SQL, Python, R, Tableau, PowerBI, etc. 
+and provide examples of how you have used them]
+
+I'm proficient in Excel, SQL, Python, R, Tableau, and Power BI. 
+For instance, I've used Excel for pivot tables and charts. SQL for database querying. 
+Python for data manipulation with Pandas. 
+R for visualization with ggplot2. 
+Tableau for interactive dashboards and Power BI for dynamic reports.
+
+
+Q10. How do you handle incomplete and missing data?
+
+When dealing with missing or incomplete data, I first try to understand the reason for the missing data.
+Depending on the situation, I may choose to impute the missing values using statistical methods or 
+remove the incomplete records from the analysis. I always document the approach taken and the impact on 
+the analysis results.
+
+
+Q11. Can you explain a complex Data Analysis concept to someone who is not familiar with Data Analysis?
+
+
+Q12. How do you ensure the quality of your analysis?
+Q13. How do you stay updated with the latest trends in Data Analysis?
+Q14. Have you worked with large datasets? How did you manage them?
+
+------------------------------------------------------------------------------
+DATA CLEANING AND PREPARATION
+------------------------------------------------------------------------------
+Q1. HOW DO YOU HANDLE MISSING OR INCOMPLETE DATA IN A DATASET?
+
+I typically assess the extent of missing data and the reasons behind it. 
+Depending on the situation, I may choose to impute missing values using statistical methods such as mean 
+imputation or use predictive models to estimate missing values.
+In some cases, I may also consider removing records with missing data if they are not significant.
+
+Q2. WHAT TECHNIQUES DO YOU USE TO IDENTIFY AND REMOVE OUTLIERS IN DATA?
+
+There are several techniques that I commonly use to identify and remove outliers in data-
+Standard Deviation Method
+Interquartile Range (IQR) Method
+Z-Score Method
+Boxplot Method
+Visulization Techniques
+
+-----------------------------------------------------------------------------
+STATISTICAL ANALYSIS
+-----------------------------------------------------------------------------
+Q1. EXPLAIN THE DIFFERENCE BETWEEN CORRELATION AND CAUSATION.
+Correlation describes the relationship between two variables, while causation describes
+the effect that changes in one variable have on another variable.
+
+While correlation can provide evidence of a potential casual relationship, establishing 
+caustion requires further investigation and evidence.
+
+Q2. HOW DO YOU DETERMINE THE STATISTICAL SIGNIFICANCE OF YOUR ANALYSIS RESULTS?
+
+I determine the statistical significance of my analysis using general steps involved in determining
+statistical significance:
+Formulate Hypothesis
+Select a Significance Level (Alpha)
+Choose a Statistical Test
+Calculate the Test Statistic
+Determine the P-value
+Compare the P-value to Alpha
+Interpret the results
+
+
+-----------------------------------------------------------------------------
+PROGRAMMING AND TOOLS
+-----------------------------------------------------------------------------
+Q1. WHAT PROGRAMMING TOOLS ARE YOU EFFICIENT WITH IN FOR DATA ANALYSIS?
+
+I am proficient in several programming tools commonly used for data analysis, including Python, R and SQL. In Python, I have experience using 
+libraries such as pandas and numpy for data manipulation, analysis and machine learning. I am also comportable writing complex SQL queries to 
+extract and manipulate data from relational databases. Additionally, I have used R for statistical analysis and data visualization.
+Overall, I am confident in my ability to use these programming tools to perform various data analysis tasks effectively.
+
+
+
+
+------------------------------------------------------------------------------
+PROJECT
+1. WHAT DID YOU DO?
+2. HOW DID YOU DO?
+3. WHAR WAS THE RESULT?
+------------------------------------------------------------------------------
+SQL
+1. BASIC COMMAND
+SELECT, FROM, DISTINCT, WHERE, AND, OR, NOT, ORDER BY, GROUP BY, HAVING, AGGREGATE FXN.
+
+2. JOINS
+INNER, OUTER, LEFT, RIGHT, FULL
+
+3. elation describes the SUBQUERIES
+SINGLE LTNE VS MULTI LINE SUBQUERIES
+
+4. STRING FORMATTING
+CONCAT, SUBSTR, TRIM, INSERT, COALESCE
+
+5. WINDOWS FUNCTION
+AGGREGATE FXN.
+WINDOWS FXN (EX- LAG, LEAD)
+RANKING FXN. (EX- ROW_NUMBER, RANK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------
+Q1. TELL ME ABOUT YOURSELF AND YOUR EXPERIENCE WITH DATA ANALYSIS.
+
+A1. I HAVE A BACKGROUND IN [MY FIELD OF STUDY (B.TECH CSE)]. 
+    AND HAVE BEEN WORKING IN DATA ANALYSIS FOR [NO. OF YRS]. 
+    IN MY PREVIOUS ROLE AT [PREVIOUS COMPANY], 
+    I WAS RESPONSIBLE FOR [BRIEF DESCRIPTION OF YOUR RESPONSIBILTIES AND ACHIEVEMENTS]. 
+    I AM PROFICIENT IN [LIST OF RELEVANT SKILLS AND TOOLS].
+
+Q2. WHAT DATA ANALYSIS TOOLS AND PROGRAMMING LANGUAGES ARE YOU PROFICIENT IN?
+
+A2. I AM PROFICIENT IN SQL FOR DATA QUERYING AND MANIPULATING. 
+    I ALSO HAVE EXPERIENCE WITH PYTHON AND R FOR DATA ANALYSIS AND VISULIZATION.
+    I AM FAMILIAR WITH TOOLS LIKE EXCEL, TABLEAU AND POWER BI FOR DATA VISULIZATION.
+
+Q3. CAN YOU DESCRIBE A CHALLENGING DATA ANALYSIS PROJECT YOU WORKED ON AND HOW YOU APPROACHED IT?
+
+A3. ONE OF THE MOST CHALLENGING PROJECTS I WORKED ON WAS [BRIEF DECRIPTION OF THE PROJECT].
+    I APPROACHED THIS PROJECT BY FIRST UNDERSTANDING THE BUSINESS REQUIREMENTS AND THE DATA AVAILABLE.
+    I THEN CLEANED AND ANALYZED THE DATA TO IDENTIFY PATTERNS AND INSIGHTS THAT COULD HELP SOLVE THE 
+    BUSINESS PROBLEM.
+    FINALLY, I PRESENTED MY FINDINGS TO STAKEHOLDERS AND RECOMMENDED ACTIONABLE STARTEGIES BASED ON
+    THE ANALYSIS. 
