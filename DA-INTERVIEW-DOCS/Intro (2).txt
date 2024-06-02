@@ -1,0 +1,30 @@
+Hi I am Mahesh Kumar I got around 3+ years of experience in Data Analytics and Consulting field
+
+My highest qualification is BTech
+
+I worked across Banking Credit Risk, Telecom and Retail Marketing Analytics domain
+
+Currently, I am working for Banking Credit Risk Analytics where my responsibilities are
+
+•	Managing both secured and unsecured credit portfolio data from various database server into analytical DataMart
+•	Design complex database model to prepare credit risk analysis and reporting on 
+o	Account Origination
+o	Account Performance
+o	Collection and Recovery 
+
+To do these day-to-day activities, I am more aligned to Reporting, Visualization and Automation 
+
+Using DBMS programming in SAS, SQL and Python
+and
+Reporting/Visualization in Excel, Tableau and Power BI 
+Prior to this, I was working into Telecom retail marketing and analytics domain where my responsibilities are
+•	Accessing customer usage data from various database server into analytics platform 
+•	Design complex database model to support business as usual MIS reporting and Ad-hoc analysis
+•	Develop strategy on
+o	Customer and Product analytics like
+	Churn and retention analysis
+	Customer acquisitions and engagement program
+	Usage and revenue enhancement strategy building
+	Product demand analysis over time
+	Prepare market competition analysis and best offer proposals
+To do these day-to-day activities, I was more aligned to DBMS programming, Reporting and Visualization using SAS, SQL, Excel and Tableau

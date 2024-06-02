@@ -1,0 +1,89 @@
+CAD is stored in database. It is data.
+
+We get data from Loan File or Captured Applications Details (or we also call it as CAD) which consists of system approved and underwriter approved applications.
+System approved application means the loan applications which the system has approved by applying ML algorithms
+in the backend and underwriter approved application means the loan application which has been declined by system but approved by underwriter.
+
+I start from Loan file which is called CAD, which we get regularly through various channel partners/sales channel.
+Then we have branch information file, Bureau information file, which consists of MDI, TDI, FICO score etc.
+we have employment information file, education information file which we need to combine or merge to get the data model which is called Account Origination File.
+From the account origination file, we design multiple
+KPI metrices such as Total Application recieved, Requested Amount, Approved Application, Approved Amount, Booked Application, Booked Amount, 
+Cancelled Application and Amount, and Lastly, Declined Application and amount.
+This KPI metrices are prepared at each portfolio level such as Mortgage, Personal Loan, Credit Card, Line of Credit.
+Here, my role is to build origination reports based on the designed KPI metrics.
+
+Now, only the data which are approved for the loan will go for Account Performance Tracking wherein we track the performace of accounts by making delinquency buckets namely X,X+1... 
+to X+5 days to CO(Charged Off). These are basically days past due date. Where X refers to 0-30 days to 180 days.
+This is a crucial part as we have to make proper collection and recovery strategy based on this.
+And, our main objective is to increase the cured-rate and improved-rate and reduce the roll-rate to achieve the BCR,
+which stands for Balance Control Ratio, which is equal to GLPA/BLPA.
+Here, cured-rate refers to the person belonging to any of the deliquency bucket is moved to the CURRENT status.
+Improved rate refers to the accounts which are in higher delinquency bucket now have moved to lower delinquency bucket.
+For example, an account which is in X+2 delinquency bucket has moved to X+1 delinquency bucket by paying the current installment.
+Roll-rate refers to the account which moves from lower-deliquency-bucket to higher-delinquency-bucket by not paying the previous and current installment/s.
+Here, we have achieve ideal BCR. Good BCR for mortgage ranges from 2 to 2.5. In case of credit-cards, a good BCR range from 3.5 to 4. Speaking in general terms, 
+a BCR of more than 1 is considered as good. We prepare our Performance Report showing all these measures. As we limited number of caller/contacting team,
+So, we also need to segment the customer's accounts which are on Higher-risk segment. Here, we categorize our customers based on risk factor as High-risk customers,
+Medium-risk customers and Low-risk customers so that the Collection Strategy can be prioritized for the accounts which are on the higher side of the risk.
+
+Q. Cross-question: What all you show in your Performance Report?
+Ans: In Performance Report, we show by portfolio-wise number of Customer Base, Delinquent Account and Balance,
+ Non-Delinquent Account and balance, Good Loan and Bad Loan per account, BCR, 
+Delinquent Rate and Non-Delinquent Rate in terms of accounts and balance,
+ all the delinquency-bucket from X to CO(Charged Off) in terms of number of accounts and percentage, 
+current balance and delinquent balance in terms of amount and percentage etc. 
+
+Q. Cross question: How do you categorize/segment customers based on risk factor?
+Ans: We look for inputs such as FICO score, MDI, TDI. In FICO score, if the customer is having score between 300 to 500, 
+then we keep that customer in 'Higher-Risk-Category'. 550-700 under 'Medium-Risk' and above 700,
+we keep that customer/account at Lower Risk.
+ These inputs are provided by our LOSS FORECASTING team.
+
+This data or you can say report is then sent to Collection team.
+ The collection team starts targetting the accounts which are at Higher Risk Category followed by Mid-Risk and Low-Risk category.
+
+Q. What is the role of calling team in your Organization?
+Ans: The calling team now starts targetting and calling the accountholders which are at Higher-Risk category.
+How many times they called?
+ Who received the call- The accountholder or someone else? Reason for not paying the dues eg.
+current financial condition or sickness. Customer's willingness to pay is also to be noted here.
+
+The data collected from our calling team is used by our LOSS FORECASTING TEAM to calculate PROBABILITY OF DEFAULT (PD),
+ EXPOSURE AT DEFAULT(EAD),
+ LOSS GIVEN DEFAULT(LGD) etc. I used to observe these things during cross-functional activity. 
+The data of our Loss Forecasting Team is used further to maintain BASEL norms such as Risk Weightage Asset(RWA),
+ CRR, SLR etc.
+ I am not part of this activity but I have bird's-eye knowledge as I was engaged in cross-functional activity. 
+
+Q. What is my role in Account Recovery process?
+Ans: Here, we have 3 teams working on recovery process-
+1. Internal Team- which contact those accountsholders that have become Charged Off after 180 days for next 6 months
+ i.e., the Internal Team will contact for first 6 months.
+2. Primary team- which contact those accountholders from 7 months to 24 months.
+3. Secondary team/ Third-Party team- which contact and try to recover the outstanding dues from
+ accountholders after 24 months.
+
+Our role in recovery phase is to analyze the PAY RATE (Suppose out of 100 accounts, 
+60 have paid partially or wholly, then my pay rate is 60%),
+RECOVERY RATE(Suppose an amount of 1 million CAD is in Charged off,
+but we manage to recover only 300,000 CAD, then my reocovery rate would be 30%). 
+
+Here, our role is to analyze the performance of Internal Team which comprises of different agents and companies.
+How good they are to achieve pay rate and recovery rate.
+We need to present to business that which companies/agents are performing well and which are not performing well.
+
+We also need to do adhoc analysis (for eg. changing age-bucket) ocassionally to do root-cause analysis,
+financial distress analysis where we need to identify macro-economic scenario and we need to depend 
+on the other sources. Such data is with LOSS FORECASTING TEAM.
+LFT will provide us the Macro-economic data which consists of GDP of the country,
+what is the industrial movement, inflation rate etc.
+These data are not readily available.
+For this data, we need to request our Manager, Client. It is a time-taking process.
+Hence, in order to prepare adhoc reports in a time-bound manner is challenging.
+
+Q. How much time is spent by you?
+Ans: 50% of my time is in regular reporting. 30% time goes to adhoc analysis. 20% is cross-functional.
+
+ 
+ 
